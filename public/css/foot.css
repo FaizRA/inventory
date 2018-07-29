@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+
+.carousel-slider {
+    height: 400px !important;
+}
+
+.card img {
+    max-height: 200px;
+    object-fit: cover;
+}
+.card img.materialized.active {
+    max-height: none;
+    object-fit: none;
+}
